@@ -7,7 +7,7 @@ yarn-error.log*
 
 #IntelliJ
 *.iml
-.idea/
+/.idea/
 
 # Runtime data
 pids
@@ -63,3 +63,4 @@ typings/
 
 # next.js build output
 .next
+/.idea/
