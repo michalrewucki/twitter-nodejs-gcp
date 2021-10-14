@@ -10,7 +10,7 @@ function handleError(error, req, res, next) {
         })
     } else {
         res.status(error.status || 500);
-        res.set({
+        res.send({
             message: error.message,
             error: req.app.get('env') === 'development' ? error : {}
         })
